@@ -12,7 +12,7 @@ async function main() {
     const asnwer = await rl.question('What is your nickname: ');
     nickname = asnwer.toString();
     
-    const socket = io('ws://localhost:3001');
+    const socket = io('ws://localhost:3000');
 
     socket.on("welcome", (data) =>{
         console.log(data.welcome);

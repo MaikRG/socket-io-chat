@@ -1,6 +1,6 @@
 import { Server } from 'socket.io'
 
-const PORT = 3001
+const PORT = 3000
 const io = new Server(PORT);
 console.log("Server listening on port: ", PORT);
 
