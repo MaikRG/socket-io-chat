@@ -9,15 +9,15 @@ Steps:
 - Clone repository in local.
 - Install node dependencies:
   
-  > `npm i`
+  > npm i
 
 - Run the server in port **3000**: 
 
-    > `npm run start:server`    
+    > npm run start:server    
 
 - Run a client connected to the server
 
-    > `npm run start:client`
+    > npm run start:client
 
     - Enter a `nickname` by console
     - Start chatting!
